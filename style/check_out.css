@@ -1,0 +1,36 @@
+.checkout-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.customer-info, .payment-info, .order-total {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    width: 150px;
+}
+
+p {
+    margin: 0;
+}
+
+.place-order {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+p.total{
+background-color: red;
+display:inline;
+color: white;
+font-weight:bold;
+font-size: 25px;
+}
